@@ -55,7 +55,9 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: profile_production
+  database: profile_development
+  host: localhost
   pool: 5
-  username: profile
-  password:
+  username: postgres
+  password: password
+
