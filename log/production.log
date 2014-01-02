@@ -293,3 +293,246 @@ ActionController::RoutingError (No route matches [GET] "/assets/application-41c8
   /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
 
 
+I, [2014-01-01T23:35:23.540163 #12590]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-01 23:35:23 -0500
+I, [2014-01-01T23:35:23.982108 #12590]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-01T23:35:23.985533 #12590]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.6ms)
+I, [2014-01-01T23:35:24.098287 #12590]  INFO -- : Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+I, [2014-01-01T23:35:24.347605 #12590]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-01 23:35:24 -0500
+I, [2014-01-01T23:35:24.380173 #12590]  INFO -- : Started GET "/assets/application-41c8d8be8ab1723ea8a4d147958d5c6d.js" for 127.0.0.1 at 2014-01-01 23:35:24 -0500
+I, [2014-01-01T23:35:25.035778 #12590]  INFO -- : Started GET "/background.jpg" for 127.0.0.1 at 2014-01-01 23:35:25 -0500
+F, [2014-01-01T23:35:25.038301 #12590] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-01T23:35:38.599748 #12590]  INFO -- : Started GET "/background.jpg" for 127.0.0.1 at 2014-01-01 23:35:38 -0500
+F, [2014-01-01T23:35:38.605358 #12590] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-01T23:36:53.957913 #12650]  INFO -- : Started GET "/background.jpg" for 127.0.0.1 at 2014-01-01 23:36:53 -0500
+F, [2014-01-01T23:36:54.178118 #12650] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-01T23:36:57.488361 #12650]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-01 23:36:57 -0500
+I, [2014-01-01T23:36:57.491958 #12650]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-01T23:36:57.495457 #12650]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.5ms)
+I, [2014-01-01T23:36:57.579803 #12650]  INFO -- : Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+I, [2014-01-01T23:36:57.635184 #12650]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-01 23:36:57 -0500
+I, [2014-01-01T23:36:58.024006 #12650]  INFO -- : Started GET "/background.jpg" for 127.0.0.1 at 2014-01-01 23:36:58 -0500
+F, [2014-01-01T23:36:58.026508 #12650] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-02T00:08:45.819299 #2869]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-02 00:08:45 -0500
+I, [2014-01-02T00:08:46.044138 #2869]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-02T00:08:46.047390 #2869]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.6ms)
+I, [2014-01-02T00:08:46.122291 #2869]  INFO -- : Completed 200 OK in 77ms (Views: 76.7ms | ActiveRecord: 0.0ms)
+I, [2014-01-02T00:08:46.164269 #2869]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-02 00:08:46 -0500
+I, [2014-01-02T00:08:46.505375 #2869]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-01-02 00:08:46 -0500
+F, [2014-01-02T00:08:46.513586 #2869] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-02T00:08:46.537019 #2869]  INFO -- : Started GET "/favicon.ico" for 127.0.0.1 at 2014-01-02 00:08:46 -0500
+F, [2014-01-02T00:08:46.539006 #2869] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-02T00:08:48.616442 #2869]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-02 00:08:48 -0500
+I, [2014-01-02T00:08:48.619034 #2869]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-02T00:08:48.620021 #2869]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.1ms)
+I, [2014-01-02T00:08:48.658108 #2869]  INFO -- : Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+I, [2014-01-02T00:08:48.703135 #2869]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-02 00:08:48 -0500
+I, [2014-01-02T00:08:48.714193 #2869]  INFO -- : Started GET "/assets/application-41c8d8be8ab1723ea8a4d147958d5c6d.js" for 127.0.0.1 at 2014-01-02 00:08:48 -0500
+I, [2014-01-02T00:08:49.535072 #2869]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-02 00:08:49 -0500
+I, [2014-01-02T00:08:49.536049 #2869]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-02T00:08:49.538026 #2869]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.1ms)
+I, [2014-01-02T00:08:49.578215 #2869]  INFO -- : Completed 200 OK in 41ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+I, [2014-01-02T00:08:49.621834 #2869]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-02 00:08:49 -0500
+I, [2014-01-02T00:08:49.632757 #2869]  INFO -- : Started GET "/assets/application-41c8d8be8ab1723ea8a4d147958d5c6d.js" for 127.0.0.1 at 2014-01-02 00:08:49 -0500
+I, [2014-01-02T00:16:48.054372 #3067]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-01-02 00:16:48 -0500
+I, [2014-01-02T00:16:48.279815 #3067]  INFO -- : Processing by StaticController#home as HTML
+I, [2014-01-02T00:16:48.283143 #3067]  INFO -- :   Rendered static/home.html.erb within layouts/application (0.6ms)
+I, [2014-01-02T00:16:48.365120 #3067]  INFO -- : Completed 200 OK in 80ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+I, [2014-01-02T00:16:48.432394 #3067]  INFO -- : Started GET "/assets/application-b7b6e23f6133e0b24b1bd916c2b9ec35.css" for 127.0.0.1 at 2014-01-02 00:16:48 -0500
+I, [2014-01-02T00:16:48.543080 #3067]  INFO -- : Started GET "/assets/application-41c8d8be8ab1723ea8a4d147958d5c6d.js" for 127.0.0.1 at 2014-01-02 00:16:48 -0500
+I, [2014-01-02T00:16:48.950645 #3067]  INFO -- : Started GET "/assets/background.jpg" for 127.0.0.1 at 2014-01-02 00:16:48 -0500
+I, [2014-01-02T00:16:53.940205 #3067]  INFO -- : Started GET "/background-2.jpg" for 127.0.0.1 at 2014-01-02 00:16:53 -0500
+F, [2014-01-02T00:16:53.944264 #3067] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background-2.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2014-01-02T00:16:58.944622 #3067]  INFO -- : Started GET "/background-3.jpg" for 127.0.0.1 at 2014-01-02 00:16:58 -0500
+F, [2014-01-02T00:16:58.946444 #3067] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/background-3.jpg"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/user/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
